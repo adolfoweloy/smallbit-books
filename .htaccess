@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^$ /front_controller.php?command=home
+
+# chamadas webservice
+RewriteRule ^ws/([a-z]+)\/?([a-z]*?)$ /front_controller.php?command=$1&action=$2&ws=1
+RewriteRule ^ws/([a-z]+)\/?([a-z]*?)\/?(\w*?)$ /front_controller.php?command=$1&action=$2&id=$3&ws=1
+
+# chamadas padrao
+RewriteRule ^([a-z]+)\/?([a-z]*?)$ /front_controller.php?command=$1&action=$2
+RewriteRule ^([a-z]+)\/?([a-z]*?)\/?(\w*?)$ /front_controller.php?command=$1&action=$2&id=$3
+

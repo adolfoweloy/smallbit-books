@@ -1,0 +1,3 @@
+server/smarty_compiled/*
+server/logs/*
+server/plaintext/*

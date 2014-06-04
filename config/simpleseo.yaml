@@ -1,0 +1,12 @@
+default_title:
+    website
+    
+default_description:
+    este é um website de exemplo
+    
+helloworld:
+    title:
+        pagina de exemplo do framework webit
+    description:
+        construa suas páginas rapidamente com webit
+        um pouco de convençao e um pouco de configuraçao também =P

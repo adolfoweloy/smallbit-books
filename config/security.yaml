@@ -1,0 +1,4 @@
+samplecontroller:
+	all:
+		- ROLE_NAME
+
